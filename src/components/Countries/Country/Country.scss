@@ -1,0 +1,29 @@
+.country-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  flex-direction: column;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #dadadada;
+    color: #092aff;
+  }
+
+  &.active {
+    color: #092aff;
+  }
+
+  .country-item-name {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .county-item-geo-position {
+    font-size: 12px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}

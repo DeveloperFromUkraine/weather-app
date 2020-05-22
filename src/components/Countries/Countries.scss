@@ -1,0 +1,30 @@
+.countries-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30vw;
+  background-color: #ffffff;
+  z-index: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+
+  .countries-list {
+    list-style: none;
+  }
+
+  .search-container {
+    position: sticky;
+    display: flex;
+    top: 0;
+    height: 45px;
+    margin: 10px;
+    justify-content: center;
+
+    .search-input {
+      width: 100%;
+      font-size: 16px;
+      outline: none;
+    }
+  }
+}
